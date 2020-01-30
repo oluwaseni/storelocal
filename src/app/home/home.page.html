@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title style="font-size: 80%;">
+      New <span style="float: right; cursor: pointer; font-size: 100%; color: #330404;" (click)="addItem()">Save</span>
+    </ion-title>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <!-- <ion-label>Title</ion-label> -->
+    <ion-input placeholder="Title" color="#330404" [(ngModel)]="newItem.title"></ion-input>
+  </ion-item>
+
+  
+    <!-- <ion-label>Value</ion-label> -->
+    <ion-textarea placeholder="Content" rows="100" cols="80" style="height: fit-content;" [(ngModel)]="newItem.value"></ion-textarea>
+ 
+
+  <!-- <ion-button expand="full" style="background-color :#330404 !important;" (click)="addItem()">Add Item</ion-button> -->
+
+  
+</ion-content>

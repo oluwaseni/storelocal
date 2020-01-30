@@ -1,0 +1,7 @@
+{
+  "name": "StoreLocal",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
